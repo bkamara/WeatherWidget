@@ -10,7 +10,7 @@ Download and navigate into the folder. Run `npm run electron`. The electron appl
 
 Use the search bar to look up the weather for any city.
 
-
+![Weather Widget App](/src/img/WeatherForecastApp.png?raw=true)
 
 
 
