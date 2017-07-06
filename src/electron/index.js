@@ -6,7 +6,7 @@ let win
  
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({icon: __dirname + '/assets/icon.ico',width: 1000, height: 650})
+  win = new BrowserWindow({icon: __dirname + '/assets/icon.ico',width: 1000, height: 700})
   
   win.setResizable(false);
   // and load the index.html of the app.
