@@ -1,0 +1,17 @@
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+i {
+  color: #000;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}

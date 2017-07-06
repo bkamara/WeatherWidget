@@ -1,0 +1,94 @@
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+i {
+  color: #000;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.header {
+  padding: 10px;
+  padding-top: 30px;
+  color: #000;
+}
+.time-label {
+  margin-bottom: -20px;
+}
+.time-label .col-md-12 {
+  padding-left: 30px;
+  font-size: 13px;
+}
+.forecast {
+  margin: -8px;
+  padding: 10px;
+}
+.dateArea {
+  margin-top: -10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.locationWeather {
+  text-align: right;
+}
+.weatherDetails {
+  padding-top: 20px;
+}
+.weatherDetails h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.highLow {
+  font-size: 23px;
+}
+.highLow strong {
+  font-size: 20px;
+}
+.highLow span {
+  font-weight: 600;
+}
+.conditions {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: -215px;
+  margin-top: 22px;
+}
+div.five-day {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+div.five-day .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.daily {
+  width: 200px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.daily .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.daily .row span.day {
+  font-weight: 600;
+}
+.daily .row span.temp {
+  font-size: 20px;
+  font-weight: 600;
+}

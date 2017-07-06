@@ -1,0 +1,82 @@
+@import '../app.component.less';
+
+.header {
+    padding: @main-padding;
+    padding-top: @main-padding + 20px;
+    color: @main-font-color;
+}
+.time-label {
+    margin-bottom: -20px;
+    .col-md-12 {
+        padding-left: @main-padding * 3;
+        font-size: @main-font-size - 7px;
+    }
+}
+.forecast {
+    margin: @body-margin;
+    padding: @main-padding;
+}
+.dateArea {
+    margin-top: @main-padding * -1;
+    font-size: @main-font-size - 2px;
+    letter-spacing: 2px;
+}
+.locationWeather {
+    text-align: right;
+}
+.weatherDetails {
+    padding-top: @main-padding * 2px;
+    h3 {
+        font-weight: 500;
+        font-size: @main-font-size + 5px;
+    }
+}
+.highLow {
+    font-size: @main-font-size + 3px;
+
+    strong { 
+        font-size: @main-font-size;
+    }
+    span {
+        font-weight: 600;
+    }
+}
+.conditions {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: -215px;
+    margin-top: 22px;
+}
+div.five-day {
+    background-color: rgba(255,255,255,0.4);
+    margin-top: @main-padding * 3;
+    margin-left: -15px;
+    margin-right: -15px;
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.daily {
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: @main-padding * 2;
+    padding-top: @main-padding + 1px;
+    padding-bottom: @main-padding + 1px;
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    
+        span.day {
+            font-weight: 600;
+        }
+        span.temp {
+            font-size: @main-font-size;
+            font-weight: 600;
+        }
+    }
+}

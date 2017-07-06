@@ -1,0 +1,46 @@
+<div class="row header">
+    <div class="row time-label">
+  	    <div class="col-md-12">
+            Your current local time and date:
+        </div>
+    </div>
+    <div class="col-md-6 dateTime">
+        <h1> {{ time }} </h1>
+        <div class="dateArea"> {{ date }} </div>
+    </div>
+    <div class="col-md-6 locationWeather">   
+        <div class="col-md-12">
+            <h2> {{ city }},{{ region }} </h2>
+               {{ country }}
+        </div>
+        <div class="col-md-12 weatherDetails">
+            <h3> Today's Forecast </h3>    
+            <img class="conditions" src="./../src/img/SVG/{{ selectImage(forecast[0].code) }}"/>
+            <div class="highLow">    
+                <strong>{{ forecast[0].text }}</strong> 
+                <br>
+                High: <span> {{ forecast[0].high }}&deg;{{ tempUnit }}</span>
+                <br/>
+                Low:&nbsp;<span> {{ forecast[0].low }}&deg;{{ tempUnit }}</span>
+            </div>    
+        </div>
+    </div>
+</div>
+
+<div class="five-day">
+  <div class="row">
+    <div *ngFor="let i of forecast | slice:1:6" class="daily">
+       <div class="row"> <span class="day"> {{ i.day }} </span> </div>
+       <div class="row">
+            <img src="./../src/img/SVG/{{ selectImage(i.code) }}"/>
+       </div>
+       <div class="row">
+           High <br>
+           <span class="temp">{{ i.high }}&deg;{{ tempUnit }} </span><br>
+           &mdash;<br>
+           Low <br>
+           <span class="temp">{{ i.low }}&deg;{{ tempUnit }} </span>
+       </div>
+    </div>
+  </div>  
+</div>
