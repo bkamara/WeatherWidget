@@ -13,7 +13,6 @@
     "build-electron": "ng build --base-href . && cp src/electron/* dist",
     "electron": "npm run build-electron && electron dist"
   },
-  "postinstall": "electron-builder install-app-deps",
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
